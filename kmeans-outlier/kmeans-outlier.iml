@@ -166,7 +166,6 @@
     <orderEntry type="library" name="Maven: com.github.rwl:jtransforms:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.spire-math:spire_2.10:0.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.spire-math:spire-macros_2.10:0.7.4" level="project" />
-    <orderEntry type="library" exported="" name="scala-sdk-2.10.0" level="application" />
-    <orderEntry type="library" name="scala-sdk-2.10.01" level="project" />
+    <orderEntry type="library" exported="" name="scala-sdk-2.11.6" level="project" />
   </component>
 </module>

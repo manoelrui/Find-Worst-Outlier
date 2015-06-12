@@ -17,9 +17,9 @@ object RunKMeans {
 
     // Reads Dataset
     val sc = new SparkContext(new SparkConf().setAppName("RunKMeans").setMaster(args(0)))
-    //val rawData = sc.textFile("/home/rui/Find-Worst-Outlier/kmeans-outlier/datasets/mouse_classified.csv")
+    val rawData = sc.textFile("/home/rui/Find-Worst-Outlier/kmeans-outlier/datasets/mouse_classified.csv")
 
-    //anomalies(rawData)
+    anomalies(rawData)
   }
 
   def anomalies(rawData: RDD[String]) = {
